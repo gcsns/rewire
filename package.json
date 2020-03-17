@@ -1,6 +1,6 @@
 {
   "name": "rewire",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Easy dependency injection for node.js unit testing",
   "keywords": [
     "dependency",
@@ -20,19 +20,20 @@
     "email": "mail@johannesewald.de"
   },
   "main": "lib/index.js",
-  "homepage": "https://github.com/jhnns/rewire",
+  "homepage": "https://github.com/gcsns/rewire",
   "bugs": {
-    "url": "https://github.com/jhnns/rewire/issues",
+    "url": "https://github.com/gcsns/rewire/issues",
     "email": "mail@johannesewald.de"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhnns/rewire.git"
+    "url": "git://github.com/gcsns/rewire.git"
   },
   "devDependencies": {
     "coffeescript": "^2.1.1",
     "expect.js": "^0.3.1",
     "mocha": "^7.1.0",
+    "eslint": "^6.8.0",
     "rewire": "file://."
   },
   "license": "MIT",
@@ -40,7 +41,5 @@
     "test": "mocha -R spec",
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha"
   },
-  "dependencies": {
-    "eslint": "^6.8.0"
-  }
+  "dependencies": {}
 }
